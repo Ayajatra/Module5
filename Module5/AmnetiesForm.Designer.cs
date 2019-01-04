@@ -1,6 +1,6 @@
 ﻿namespace Module5
 {
-    partial class Form1
+    partial class AmnetiesForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // AmnetiesForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(553, 354);
+            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Name = "AmnetiesForm";
+            this.Text = "AmnetiesForm";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-
